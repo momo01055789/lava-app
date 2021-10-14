@@ -8868,6 +8868,7 @@ body,
   padding-right: 0.5rem;
   overflow-y: auto;
   height: calc(100% - 4rem);
+  background-color: #307e8b;
 }
 
 .user-panel {
@@ -8993,7 +8994,7 @@ body,
 }
 
 .sidebar-dark-primary {
-  background-color: #343a40;
+  background-color: #684a8a;
 }
 
 .sidebar-dark-primary .user-panel a:hover {
@@ -29188,4 +29189,8 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.router-link-exact-active {
+  background-color: #684A8A;
+  color: #f8f2f2 !important;
 }
